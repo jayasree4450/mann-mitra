@@ -3,27 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Mann Mithra</title>
+    <title>Contact Us - Mann Mitra</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-        </nav>
+        <h2>Contact Us</h2>
     </header>
 
-    <section class="content">
-        <h2>Get in Touch</h2>
-        <p>Email: support@mannmithra.com</p>
-        <p>Phone: +91 987654321023</p>
-    </section>
-
-    <footer>
-        <p>© 2025 Mann Mithra. All Rights Reserved.</p>
-    </footer>
+    <div class="contact-container">
+        <img src="images/contact-us.png" alt="Contact Us">
+        <form action="#" id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
 </body>
 </html>
