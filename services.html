@@ -35,7 +35,7 @@
       text-align: center;
     }
     .service-box img,
-    .service-box video {
+    .service-box iframe {
       max-width: 100%;
       border-radius: 8px;
     }
@@ -59,24 +59,23 @@
   <div class="services-container">
     <!-- Service 1 -->
     <div class="service-box">
-      <img src="images/video-therapy.jpg" alt="Live Video Therapy">
+      <img src="https://picsum.photos/300/200?random=1" alt="Live Video Therapy">
       <div class="service-title">Live Video Therapy</div>
       <p>Connect with therapists via video calls.</p>
     </div>
 
-    <!-- Service 2 -->
+    <!-- Service 2 with YouTube Embed -->
     <div class="service-box">
-      <video controls>
-        <source src="videos/chat-support.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/jtF5g3iDJKg" 
+              title="24/7 Chat Support Video" frameborder="0" allowfullscreen>
+      </iframe>
       <div class="service-title">24/7 Chat Support</div>
       <p>Instant chat with professionals.</p>
     </div>
 
     <!-- Service 3 -->
     <div class="service-box">
-      <img src="images/one-on-one.jpg" alt="One-on-One Counseling">
+      <img src="https://picsum.photos/300/200?random=2" alt="One-on-One Counseling">
       <div class="service-title">One-on-One Counseling</div>
       <p>Schedule in-person or virtual sessions.</p>
     </div>
