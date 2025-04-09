@@ -3,34 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Mann Mitra</title>
+    <title>Therapy Services - Mann Mitra</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h2>Our Services</h2>
+        <div class="logo-container">
+            <div class="logo-icon">
+                <img src="images/mental-health-icon.png" alt="Mann Mitra Logo Icon">
+            </div>
+            <div class="logo-text">
+                <h1>Mann Mitra</h1>
+                <p>Your trusted companion for mental wellness</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
     </header>
 
-    <section class="services">
-        <div class="service-box">
-            <img src="images/video-therapy.png" alt="Live Video Therapy">
-            <h3>Live Video Therapy</h3>
-            <p>Connect with therapists via video calls.</p>
-        </div>
-        <div class="service-box">
-            <img src="images/chat-support.png" alt="24/7 Chat Support">
-            <h3>24/7 Chat Support</h3>
-            <p>Instant chat with professionals.</p>
-        </div>
-        <div class="service-box">
-            <img src="images/counseling.png" alt="One-on-One Counseling">
-            <h3>One-on-One Counseling</h3>
-            <p>Schedule in-person or virtual sessions.</p>
-        </div>
-    </section>
+    <main>
+        <section class="service-section">
+            <h2>Our Therapy Services</h2>
+
+            <!-- Therapy Images -->
+            <div class="image-gallery">
+                <h3>Images of Therapy Sessions</h3>
+                <div class="image-container">
+                    <img src="images/therapy-session1.jpg" alt="Therapist and Patient Session 1">
+                    <img src="images/therapy-session2.jpg" alt="Therapist and Patient Session 2">
+                    <img src="images/therapy-session3.jpg" alt="Therapist and Patient Session 3">
+                </div>
+            </div>
+
+            <!-- Therapy Videos -->
+            <div class="video-gallery">
+                <h3>Learn More About Therapy</h3>
+                <div class="video-container">
+                    <video width="600" controls>
+                        <source src="videos/therapy-introduction.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <video width="600" controls>
+                        <source src="videos/therapy-session-guide.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <p>Contact us for more information or to schedule a session with one of our expert therapists.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2025 Mann Mitra. All Rights Reserved.</p>
+        <p>&copy; 2025 Mann Mitra. All rights reserved.</p>
     </footer>
 </body>
 </html>
