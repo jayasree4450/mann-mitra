@@ -1,68 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Therapy Services - Mann Mitra</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services - Mann Mitra</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #1e66f5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 40px;
+    }
+    .service-box {
+      background: white;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .service-box img,
+    .service-box video {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .service-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 15px 0 10px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <div class="logo-icon">
-                <img src="images/mental-health-icon.png" alt="Mann Mitra Logo Icon">
-            </div>
-            <div class="logo-text">
-                <h1>Mann Mitra</h1>
-                <p>Your trusted companion for mental wellness</p>
-            </div>
-        </div>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-            <a href="login.html">Login</a>
-            <a href="signup.html">Sign Up</a>
-        </nav>
-    </header>
+  <header>Our Services</header>
 
-    <main>
-        <section class="service-section">
-            <h2>Our Therapy Services</h2>
+  <div class="services-container">
+    <!-- Service 1 -->
+    <div class="service-box">
+      <img src="images/video-therapy.jpg" alt="Live Video Therapy">
+      <div class="service-title">Live Video Therapy</div>
+      <p>Connect with therapists via video calls.</p>
+    </div>
 
-            <!-- Therapy Images -->
-            <div class="image-gallery">
-                <h3>Images of Therapy Sessions</h3>
-                <div class="image-container">
-                    <img src="images/therapy-session1.jpg" alt="Therapist and Patient Session 1">
-                    <img src="images/therapy-session2.jpg" alt="Therapist and Patient Session 2">
-                    <img src="images/therapy-session3.jpg" alt="Therapist and Patient Session 3">
-                </div>
-            </div>
+    <!-- Service 2 -->
+    <div class="service-box">
+      <video controls>
+        <source src="videos/chat-support.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="service-title">24/7 Chat Support</div>
+      <p>Instant chat with professionals.</p>
+    </div>
 
-            <!-- Therapy Videos -->
-            <div class="video-gallery">
-                <h3>Learn More About Therapy</h3>
-                <div class="video-container">
-                    <video width="600" controls>
-                        <source src="videos/therapy-introduction.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+    <!-- Service 3 -->
+    <div class="service-box">
+      <img src="images/one-on-one.jpg" alt="One-on-One Counseling">
+      <div class="service-title">One-on-One Counseling</div>
+      <p>Schedule in-person or virtual sessions.</p>
+    </div>
+  </div>
 
-                    <video width="600" controls>
-                        <source src="videos/therapy-session-guide.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
+  <div class="footer">
+    © 2025 Mann Mitra. All Rights Reserved.
+  </div>
 
-            <p>Contact us for more information or to schedule a session with one of our expert therapists.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Mann Mitra. All rights reserved.</p>
-    </footer>
 </body>
 </html>
